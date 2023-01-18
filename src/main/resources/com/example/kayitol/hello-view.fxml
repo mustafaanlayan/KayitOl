@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="497.0" prefWidth="771.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="497.0" prefWidth="253.0" style="-fx-background-color: FED700;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="264.0" layoutX="44.0" layoutY="99.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../java/com/example/kayitol/barcode.png" />
+               </image></ImageView>
+            <Label layoutX="56.0" layoutY="300.0" text="05333 399 54 34">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="36.0" layoutY="342.0" text="MUSTAFA ANLAYAN">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="497.0" prefWidth="518.0">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="217.0" layoutY="54.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../java/com/example/kayitol/25496.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="13.0" layoutY="268.0" text="Kullanıcı Adı : ">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="76.0" layoutY="318.0" text="Şifre : ">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtKullaniciAdi" layoutX="167.0" layoutY="262.0" prefHeight="34.0" prefWidth="299.0">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="txtSifre" layoutX="167.0" layoutY="312.0" prefHeight="34.0" prefWidth="299.0">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </TextField>
+            <Button fx:id="btnGiris" layoutX="201.0" layoutY="385.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="247.0" style="-fx-background-color: FED700;" text="Giris">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Button>
+            <Label layoutX="183.0" layoutY="445.0" text="Üye Olunuz  : ">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnKayitOl" layoutX="299.0" layoutY="441.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Kayıt Ol" textFill="#0d20ee" underline="true">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="15.0" />
+               </font>
+            </Button>
+         </children></AnchorPane>
+   </children>
+</HBox>

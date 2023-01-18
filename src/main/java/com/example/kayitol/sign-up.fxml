@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="454.0" prefWidth="737.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane prefHeight="454.0" prefWidth="282.0" style="-fx-background-color: FED700;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="41.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@barcode.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="59.0" layoutY="256.0" text="0533 399 54 34">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="41.0" layoutY="292.0" text="MUSTAFA ANLAYAN">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="454.0" prefWidth="487.0">
+         <children>
+            <Label layoutX="27.0" layoutY="48.0" text="Kullanıcı Adı : ">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="97.0" layoutY="97.0" text="Şifre : ">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtKullaniciAdi" layoutX="169.0" layoutY="47.0" prefHeight="25.0" prefWidth="240.0">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="txtSifre" layoutX="169.0" layoutY="91.0" prefHeight="25.0" prefWidth="240.0">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </TextField>
+            <Label layoutX="169.0" layoutY="165.0" text="Favori Yotube Kanalımız">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <RadioButton fx:id="rbMustafa" layoutX="180.0" layoutY="227.0" mnemonicParsing="false" text="Mustafa ANLAYAN">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </RadioButton>
+            <RadioButton fx:id="rbDiger" layoutX="180.0" layoutY="262.0" mnemonicParsing="false" text="Diğer">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </RadioButton>
+            <Button fx:id="btnKayitOl" layoutX="180.0" layoutY="323.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="240.0" style="-fx-background-color: FED700;" text="Kayıt Ol">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Button>
+            <Label layoutX="186.0" layoutY="388.0" text="Üyemisiniz ?">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="btnGiris" layoutX="300.0" layoutY="382.0" mnemonicParsing="false" style="-fx-background-color: tarnsparent;" text="Giriş" textFill="#390deb" underline="true">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </children>
+</HBox>

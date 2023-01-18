@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="480.0" prefWidth="786.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.kayitol.LoggedInController">
+   <children>
+      <Label fx:id="lblHosgeldin" layoutX="320.0" layoutY="84.0" text="HOŞ GELDİNİZ">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblKanal" layoutX="183.0" layoutY="139.0" text="MUSTAFA ANLAYAN KANALIMA HOŞ GELDİNİZ">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnCikis" layoutX="320.0" layoutY="250.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="194.0" style="-fx-background-color: FED700;" text="ÇIKIŞ">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
